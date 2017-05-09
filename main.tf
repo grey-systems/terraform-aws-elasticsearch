@@ -3,9 +3,7 @@
  *
  *      module "foo" {
  *        source = "github.com/grey-systems/terraform-elasticsearch.git?ref=master"
- *        module "elasticsearch" {
- *        source          = "git::ssh://hg@bitbucket.org/greysystems/terraform-elasticsearch.git?ref=1.0.0"
-*         name            = "${var.domain_name}"
+ *        name            = "${var.domain_name}"
  *        environment     = "${var.environment}"
  *        route53_zone_id = "${var.route53_zone_id}"
  *        ips_allowed     = ["${var.your_ips_allowed_to_access_el}"]
