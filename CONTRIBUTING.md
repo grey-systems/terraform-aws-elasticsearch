@@ -7,7 +7,7 @@ The easiest ways to contribute to `terraform-elasticsearch` are:
   * Forking the repository, make your contribution and submit a pull request.
     See [Git Flow](#git-flow) for further information.
 
-[issue]: https://github.com/emcrisostomo/fswatch/issues/new
+[issue]: https://github.com/grey-systems/terraform-elasticsearch/issues/new
 
 Git Flow
 --------
