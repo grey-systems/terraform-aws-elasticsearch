@@ -3,6 +3,7 @@ Contributing to terraform-elasticsearch
 
 The easiest ways to contribute to `terraform-elasticsearch` are:
 
+
   * Creating a new [issue].
   * Forking the repository, make your contribution and submit a pull request.
     See [Git Flow](#git-flow) for further information.
@@ -11,7 +12,6 @@ The easiest ways to contribute to `terraform-elasticsearch` are:
 
 Git Flow
 --------
-
 We chose to use the [Git flow branching model][flow] for `terraform-elasticsearch`, so you are
 kindly required to follow the same model when making your contributions.  That
 basically means that:
