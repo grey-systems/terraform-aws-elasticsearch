@@ -81,3 +81,8 @@ variable "automated_snapshot_start_hour" {
   type    = "string"
   default = "23"
 }
+
+variable "version" {
+  type    = "string"
+  default = "5.1"
+}

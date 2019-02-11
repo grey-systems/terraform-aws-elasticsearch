@@ -13,7 +13,7 @@
 
 resource "aws_elasticsearch_domain" "es" {
   domain_name           = "${var.environment}-${var.name}"
-  elasticsearch_version = "5.1"
+  elasticsearch_version = "${var.version}"
 
   advanced_options {
     "rest.action.multi.allow_explicit_index" = "true"
